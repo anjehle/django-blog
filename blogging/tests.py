@@ -3,7 +3,8 @@ import datetime
 from django.utils.timezone import utc
 from django.test import TestCase
 from django.contrib.auth.models import User
-from blogging.models import Post, Category
+from blogging.models import Post
+from blogging.models import Category
 
 
 class FrontEndTestCase(TestCase):
