@@ -1,6 +1,5 @@
 language: python
-python:
-  - "3.6"
+/bin/bash: q: command not found
 install:
   - pip install -r requirements.txt
   - python manage.py migrate
